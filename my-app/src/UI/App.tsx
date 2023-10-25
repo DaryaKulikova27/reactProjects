@@ -39,7 +39,6 @@ function App() {
         <br />
         <div style={{ padding: 20 }}>
           <Dropdown 
-            isOpen={true} 
             button={<button className='btn btn-primary'>Test</button>} 
             onOpen={() => console.log('dropdown is open')} 
             onClose={() => console.log('dropdown is close')}>

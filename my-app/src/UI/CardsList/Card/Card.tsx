@@ -1,5 +1,7 @@
 import React from 'react';
 import styles from './card.module.css';
+import { Dropdown } from '../../Dropdown';
+import { Menu } from './Menu';
 
 export function Card() {
   return (
@@ -11,6 +13,7 @@ export function Card() {
             <a href="#user-url" className={styles.username}>Дмитрий Гришин</a>
           </div>
           <span className={styles.createdAt}>4 часа назад</span>
+          <Menu />
         </div>
         <h2 className={styles.title}>
           <a href="#post-url" className={styles.postLink}>Следует отметить, что новая модель организационной деятельности...</a>
@@ -21,11 +24,7 @@ export function Card() {
         <img src="https://cdn.dribbble.com/userupload/10596406/file/original-6e3e028bbae17bc47f737521142617be.jpg?resize=752x" className={styles.previewImg} />
       </div>
 
-      <div className={styles.menu}>
-        <button className={styles.menuButton}>
-          Button
-        </button>
-      </div>
+      
 
       <div className={styles.controls} />
     </li>
