@@ -9,7 +9,7 @@ export function Card() {
       <div className={styles.textContent}>
         <div className={styles.metaData}>
           <div className={styles.userLink}>
-            <img src={require('../../../img/avatar.png')} alt="avatar" className={styles.avatar} />
+            <img src={require('../../img/avatar.png')} alt="avatar" className={styles.avatar} />
             <a href="#user-url" className={styles.username}>Дмитрий Гришин</a>
           </div>
           <span className={styles.createdAt}>4 часа назад</span>
